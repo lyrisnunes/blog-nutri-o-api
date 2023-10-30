@@ -3,12 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: #121214;
 
-  .center {
-    width: 180px;
-    height: 60px;
-  }
-
-  p {
+  .text{
+    margin-bottom: 2rem;
     background-color: #0b0726;
     color: white;
     text-align: center;
@@ -16,26 +12,28 @@ export const Container = styled.div`
   }
 
   h1{
+    padding: 1rem 0;
     color: white;
     text-align: center;
   }
 `;
 
 export const Content = styled.div`
-  width: 140rem;
+  max-width: 140rem;
   margin: 2rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   gap: 1rem;
+  padding: 0 1rem;
+  
 
   img {
-    display: block;
-    height: 300px;
-    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    max-width: 100%;
     border-top-right-radius:8px ;
     border-top-left-radius:8px ;
-
   }
 
   a{
@@ -47,7 +45,26 @@ export const Content = styled.div`
   }
 
   > article{
-    display: grid;
-    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+
+    p{
+      padding: .5rem;
+      height: 120px;
+      display: flex;
+      align-items: center;
+    background-color: #0b0726;
+    color: white;
+    }
+  }
+
+  @media(max-width: 1432px){
+  grid-template-columns: 1fr 1fr;
+
+  }
+
+  @media(max-width: 700px){
+  grid-template-columns: 1fr  ;
+
   }
 `;

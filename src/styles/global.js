@@ -10,7 +10,7 @@ export default createGlobalStyle`
       text-decoration: none;
    }
 
-   :root{
+   html{
    font-size: 62.5%;
    }
 
@@ -18,4 +18,11 @@ export default createGlobalStyle`
    font-size: 1.6rem;
    font-family: 'Roboto', sans-serif;
    }
+
+   @media(max-width: 800px){
+      html{ 
+         font-size: 50%;
+      }
+   }
+
 `;

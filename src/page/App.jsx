@@ -2,8 +2,6 @@
 import { useEffect, useState } from "react"; // 1
 import { Header } from "../components/Header";
 import { Container, Content } from "./styles";
-import { Info } from "../components/Info";
-
 
 export function Home() {
   const [nutri, setNutri] = useState([]); // começa vazio //2
@@ -27,10 +25,7 @@ export function Home() {
   return (
     <Container>
       <Header />
-      <p>A jornada da perda de peso começa com um único passo.</p>
-
-      <Info/>
-
+      <p className="text">A jornada da perda de peso começa com um único passo.</p>
       
       <h1>Artigos sobre saúde</h1>
       <Content >
@@ -40,6 +35,7 @@ export function Home() {
             <article key={item.id}>
               <strong>{item.titulo}</strong>
               <img src={item.capa} alt={item.titulo} />
+              <p>{item.subtitulo}</p>
               <a href="#">Acessar</a>
             </article>
           );

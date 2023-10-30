@@ -4,10 +4,12 @@ export const Container = styled.div`
    display: flex;
    justify-content: space-between;
    align-items: center;
+   gap: 1rem;
    padding: 1.5rem 5rem;
    border-bottom: 1px solid #ffffff46;
 
    h2{
+      font-size: 2rem;
       color: white;
    }
 
@@ -21,7 +23,11 @@ export const Container = styled.div`
 
    button:hover{
       background-color: red;
-      transition: 3s;
-      
+      transition: 3s; 
    }
+
+   @media(max-width: 700px){
+    padding: 1.5rem ;
+   }
+   
 `;
