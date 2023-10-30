@@ -15,7 +15,7 @@ A aplicação é uma página web que exibe informações sobre nutrição, inclu
 </h1>
 
 <h1>
-         <img src="src/img/2.pngf" >
+         <img src="src/img/2.png" >
 </h1>
 
 ## 🔧 Tecnologias
