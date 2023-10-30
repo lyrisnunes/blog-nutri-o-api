@@ -29,7 +29,7 @@ export const Content = styled.div`
   
 
   img {
-    height: 400px;
+    height: 200px;
     object-fit: cover;
     max-width: 100%;
     border-top-right-radius:8px ;
@@ -47,6 +47,7 @@ export const Content = styled.div`
   > article{
     display: flex;
     flex-direction: column;
+    padding-bottom: 2rem;
 
     p{
       padding: .5rem;
@@ -65,6 +66,5 @@ export const Content = styled.div`
 
   @media(max-width: 700px){
   grid-template-columns: 1fr  ;
-
   }
 `;

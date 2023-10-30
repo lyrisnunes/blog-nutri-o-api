@@ -9,7 +9,6 @@ export const Container = styled.div`
    border-bottom: 1px solid #ffffff46;
 
    h2{
-      font-size: 2rem;
       color: white;
    }
 

@@ -1,8 +1,26 @@
-# React + Vite
+## Nutrição Você 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação que utiliza a API, que exibe informações sobre nutrição.
 
-Currently, two official plugins are available:
+A aplicação é uma página web que exibe informações sobre nutrição, incluindo títulos, imagens e subtítulos de diferentes posts relacionados ao tema, vindo da API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Boas práticas.
+- Interface intuitiva
+- Responsiva
+- Styled components
+- Integração com API
+
+<h1>
+         <img src="src/img/1.png" >
+</h1>
+
+<h1>
+         <img src="src/img/2.pngf" >
+</h1>
+
+## 🔧 Tecnologias
+
+- Javascript
+- React
+
+Deploy: <a href="https://blog-nutri-o-api-ho6p.vercel.app/"> - Veja o projeto clique aqui </a>
